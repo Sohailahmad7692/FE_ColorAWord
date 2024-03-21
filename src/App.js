@@ -15,7 +15,7 @@ function App() {
       setColors([]);
     }
     try {
-      const response = await axios.post('https://colorawordbackend.onrender.com/api/colors', { word }); // Set timeout to 10 seconds (adjust as needed)
+      const response = await axios.post('https://be-coloraword.onrender.com/api/colors', { word }); // Set timeout to 10 seconds (adjust as needed)
       setColors(response.data);
     } catch (error) {
       console.error('Error fetching colors:', error);

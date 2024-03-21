@@ -22,4 +22,4 @@ To run this application locally, follow the steps below:
    npm start
 4. Backend repo for this project:
    https://github.com/Sohailahmad7692/ColorAWordBackend
-   (for running the local backend, replace the origin url: https://colorawordbackend.onrender.com/api/colors with http://localhost:5000 )
+   (for running the local backend, replace the origin url: https://be-coloraword.onrender.com/api/colors with http://localhost:5000 )
